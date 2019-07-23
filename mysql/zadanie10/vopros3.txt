@@ -1,0 +1,7 @@
+db.shop.insert(
+	[ {product_name: 'Intel Core i3-8100', description: 'Процессор для настольных персональных компьютеров, основанных на платформе Intel.', price: '7950.00', catalog: 'Процессоры'},
+	  {product_name: 'AMD FX-8320E', description: 'Процессор для настольных персональных компьютеров, основанных на платформе AMD.', price: '4780.00', catalog: 'Процессоры'},
+	  {product_name: 'ASUS ROG MAXIMUS X HERO', description: 'Материнская плата ASUS ROG MAXIMUS X HERO, Z370, Socket 1151-V2, DDR4, ATX', price: '19310.00', catalog: 'Материнские платы'}
+	]
+)
+

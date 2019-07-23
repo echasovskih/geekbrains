@@ -1,0 +1,9 @@
+вариант 1: хранение количества подключений в string
+
+incr connection:ip_address_decimal
+get connection:ip_address_decimal
+
+вариант 2: хранение подключения в list
+
+lpush connection:ip_address_decimal connection_property
+llen connection:ip_address_decimal
