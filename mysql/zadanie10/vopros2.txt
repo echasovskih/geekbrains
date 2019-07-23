@@ -8,6 +8,6 @@ hget user:user_id email
 
 вариант 2(в лоб): 2 hash - один для хранений пар (user_name, user_email), второй для пар (user_email, user_name)
 
-hset email user_email:user_name
-hset name user_name:user_email
+hset email user_email user_name
+hset name user_name user_email
 hget email user_email
